@@ -9,7 +9,7 @@
 			// var meteo = JSON.parse(body);
 			var temp = data.main.temp;
 			var humidity = data.main.humidity;
-			$('#receiver').append('a Toulouse il fait ' + temp + '&#176;C et il y a ' + humidity + "% d'humidit&#233e");
+			$('#meteo').append('a Toulouse il fait ' + temp + '&#176;C et il y a ' + humidity + "% d'humidit&#233e");
 		}
 	});
 
